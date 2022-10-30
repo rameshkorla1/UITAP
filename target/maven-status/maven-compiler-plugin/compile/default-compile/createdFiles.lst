@@ -1,0 +1,3 @@
+com\uitap\actions\Actions.class
+com\uitap\reports\ExtentReporterNG.class
+com\uitap\pages\UIHomePage.class
