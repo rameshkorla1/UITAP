@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Pet Store API tests]" parallel="none">
+  <test name="Pet API tests(failed)" parallel="none">
+    <classes>
+      <class name="com.petstore.PetTests">
+        <methods>
+          <include name="updatePet"/>
+          <include name="verifyUpdatedPet"/>
+          <include name="addNewPet"/>
+          <include name="beforeClass"/>
+          <include name="verifyNewPet"/>
+        </methods>
+      </class> <!-- com.petstore.PetTests -->
+    </classes>
+  </test> <!-- Pet API tests(failed) -->
+</suite> <!-- Failed suite [Pet Store API tests] -->
